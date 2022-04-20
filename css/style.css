@@ -9,6 +9,30 @@
 ul li {
     list-style-type: none;
 }
+
+/* stili utilities */
+
+
+
+.white-text {
+    color: #fff;
+   
+}
+
+.blue-bg {
+    background-color: #0061FF;
+   
+}
+
+
+.btn {
+    border: none;
+    padding: 0.5rem 1rem;
+
+}
+
+
+
 /* ----------------------------------------------- */
 
 /* stile navbar (logo , list item , btn) */
@@ -33,6 +57,8 @@ nav .nav-left ul li , nav .nav-right ul li {
 
 /* ----------------------------------------------- */
 
+/* stile jumbo section */
+
 .big-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -42,6 +68,7 @@ nav .nav-left ul li , nav .nav-right ul li {
 .jumbo {
     background: #B4D0E7;
     position: relative;
+    margin-bottom: 50px;
 
 }
 
@@ -77,4 +104,8 @@ nav .nav-left ul li , nav .nav-right ul li {
     top: 40%;
     left: 45%;
 
+}
+
+.jumbo-content i {
+    font-size: 3rem;
 }
