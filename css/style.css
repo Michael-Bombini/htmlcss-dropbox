@@ -191,14 +191,16 @@ label input {
 }
 
 .card {
-    border: 1px solid lightgray;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 0px 1px 1px 1px;
     flex-basis: calc(100% / 3);
 
 }
 
 
-.card .card-person {
-    border-bottom: 1px solid lightgray;
+ .card-person {
+    border: 1px solid lightgray;
     padding: 0.7rem 0;
     text-align: center;
 }
@@ -245,3 +247,10 @@ label input {
 .card-points h4 {
     margin-bottom: 1.5rem;
 }
+
+
+/* --------------------------------------------------- */
+
+/* Big Card section */
+
+
