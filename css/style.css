@@ -33,6 +33,7 @@ ul li {
 
 
 
+
 /* ----------------------------------------------- */
 
 /* stile navbar (logo , list item , btn) */
@@ -42,6 +43,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    z-index: 1; */
+    background: #fff;
+    
   
     
 }
@@ -83,7 +90,7 @@ nav .nav-left ul li , nav .nav-right ul li {
 
 .jumbo-text {
     max-width: 400px;
-    line-height: 1.6rem;
+    line-height: 1.3rem;
     margin-bottom: 1.5rem;
 }
 
@@ -99,10 +106,10 @@ nav .nav-left ul li , nav .nav-right ul li {
 }
 
 .jumbo-image img {
-    width: 40%;
+    width: 50%;
     position: absolute;
     top: 40%;
-    left: 45%;
+    left: 42%;
 
 }
 
@@ -176,11 +183,33 @@ label input {
 }
 
 
-.card-person , .card-type {
+.card-person , .card-type , .card-feature , .card-info{
     margin-bottom: 1.3rem;
 }
 
 
-.card-feature ul li {
-    padding-bottom: 0.4rem;
+.card-feature ul li , .card-points ul li {
+    padding-bottom: 0.6rem;
+}
+
+
+.card-info button {
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card-info hr {
+   width: 20%; 
+   margin-bottom: 3rem;
+   margin-top: 3rem ;
+}
+
+.card-points {
+    margin-bottom: 100px;
+}
+
+.card-points h4 {
+    margin-bottom: 1.5rem;
 }
