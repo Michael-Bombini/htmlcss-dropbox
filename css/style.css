@@ -254,3 +254,27 @@ label input {
 /* Big Card section */
 
 
+.card-col {
+    display: flex;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px 1px 1px 1px;
+  
+}
+
+.card-person.big {
+    margin-bottom: 0;
+}
+
+.card-big-col {
+    flex-basis : 70%;
+    padding: 1.5rem ;
+  
+}
+
+
+.card-small-col {
+    flex-basis: 30%;
+    text-align : right;
+    padding:  1.5rem;
+}
