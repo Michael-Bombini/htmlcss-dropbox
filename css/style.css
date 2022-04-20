@@ -68,7 +68,7 @@ nav .nav-left ul li , nav .nav-right ul li {
 .jumbo {
     background: #B4D0E7;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 
@@ -108,4 +108,79 @@ nav .nav-left ul li , nav .nav-right ul li {
 
 .jumbo-content i {
     font-size: 3rem;
+}
+
+/* ----------------------------------------------- */
+
+
+/* Business plan section */
+
+.business-plan {
+    padding-top: 50px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding : 2rem 0;
+}
+
+
+.business-plan h2 {
+    font-size: 2.4rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+
+label {
+    padding: 0 0.5rem;
+}
+
+
+label input {
+    margin: 0 0.3rem;
+}
+
+
+.duration {
+    margin-bottom: 2.5rem;
+}
+
+
+.cards {
+    display: flex;
+    gap : 30px;
+}
+
+.card {
+    border: 1px solid lightgray;
+    flex-basis: calc(100% / 3);
+
+}
+
+
+.card .card-person {
+    border-bottom: 1px solid lightgray;
+    padding: 0.7rem 0;
+    text-align: center;
+}
+
+
+.card-info {
+    padding: 0.5rem 1.2rem;
+}
+
+
+.card-person , .card-type {
+    margin-bottom: 1.3rem;
+}
+
+
+.card-feature ul li {
+    padding-bottom: 0.4rem;
 }
