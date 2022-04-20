@@ -41,6 +41,7 @@ nav .nav-left ul li , nav .nav-right ul li {
 
 .jumbo {
     background: #B4D0E7;
+    position: relative;
 
 }
 
@@ -60,12 +61,20 @@ nav .nav-left ul li , nav .nav-right ul li {
 }
 
 
-.jumbo .big-container > button {
+.jumbo .big-container .jumbo-content > button {
     margin-bottom: 1.5rem;
 }
 
 
-.jumbo .big-container > span {
+.jumbo .big-container .jumbo-content > span {
     display: block;
     margin-bottom: 2.5rem;
+}
+
+.jumbo-image img {
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+
 }
