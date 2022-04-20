@@ -99,6 +99,7 @@ nav .nav-left ul li , nav .nav-right ul li {
 
 .jumbo-content {
     padding: 50px 100px;
+    margin-top: 40px;
 }
 
 .jumbo-title {
@@ -151,7 +152,7 @@ nav .nav-left ul li , nav .nav-right ul li {
 
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding : 2rem 0;
 }
@@ -180,11 +181,13 @@ label input {
 .duration {
     margin-bottom: 2.5rem;
 }
+/* --------------------------------------------------- */
 
+/* Card section */
 
 .cards {
     display: flex;
-    gap : 30px;
+    gap : 50px;
 }
 
 .card {
@@ -217,10 +220,12 @@ label input {
 
 
 .card-info button {
-    padding: 0.5rem 1.5rem;
-    width: 100%;
+    padding: 0.8rem 3rem;
+    margin : 0 auto ;
+    display: block;
     text-align: center;
     margin-bottom: 1.5rem;
+
 }
 
 .card-info hr {
@@ -231,6 +236,10 @@ label input {
 
 .card-points {
     margin-bottom: 100px;
+}
+
+.card-points ul li {
+    padding-bottom: 1.4rem;
 }
 
 .card-points h4 {
