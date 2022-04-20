@@ -51,6 +51,11 @@ ul li {
     font-size: 1.8rem;
 }
 
+
+
+
+
+
 /* ----------------------------------------------- */
 
 /* stile navbar (logo , list item , btn) */
@@ -277,4 +282,28 @@ label input {
     flex-basis: 30%;
     text-align : right;
     padding:  1.5rem;
+}
+
+/* --------------------------------------------------- */
+
+
+/* Partner dropbox section */
+
+.no-border {
+    border: none;
+}
+
+.card-col.no-border {
+    gap: 5px;
+}
+
+.partner-img {
+    width: 100%;
+}
+
+
+.card-small-col.partner {
+    text-align: left;
+   padding : 2.5rem 0;
+    
 }
