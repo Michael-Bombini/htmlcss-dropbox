@@ -420,9 +420,11 @@ label input {
 
 /* --------------------------------------------------- */
 
+/* Bring dropbox business section */
 
 .bring {
     padding: 4rem 6rem;
+    
 }
 
 .bring .card-big-col {
@@ -438,3 +440,14 @@ label input {
     padding: 0.9rem 2.3rem;
     font-size: 1rem;
 }
+
+
+/* --------------------------------------------------- */
+
+
+/* FAQ Section */
+
+
+.faq ul li {
+    margin-top: 1.5rem;
+} 
