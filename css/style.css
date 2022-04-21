@@ -444,30 +444,63 @@ label input {
 .designit-big{background: #F5F5F5;}
 
 
-.design {
-    display: flex;
-    flex-flow: row nowrap;
-}
 
 
-
-.design-item {
-    
-    flex-basis: calc(100% / 5);
-}
-
-
+/* 
 .design-item:not(.big) img {
     filter: invert(1);
     width: 100%;
 
  
+} */
+
+.design {
+    display: flex;
+}
+
+.design .design-left {
+    background: red;
+    width: calc(100% / 3);
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 
+.design .design-middle {
+
+    width: calc(100% / 3);
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.design .design-right {
+  
+    width: calc(100% / 3);
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+}
 
 
+.design-item {
+    flex-basis: 50%;
+    height: 100%;
+}
 
+.design-left .design-item {
+    background: red;
+}
+
+.design-right .design-item {
+    background: blue;
+   
+}
+
+.design-middle .design-item {
+    background: green;
+}
 
 
 /* --------------------------------------------------- */
