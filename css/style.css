@@ -500,6 +500,8 @@ label input {
 
 .design-middle .design-item {
     background: green;
+    flex-basis: 100%;
+    height: 400px;
 }
 
 
