@@ -29,6 +29,21 @@ ul li {
  
 }
 
+.text-purple-red {
+    color : #61082B;
+}
+
+.light-blue-bg {
+    background: #B4D0E7;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+
+
+
 .btn {
     border: none;
     padding: 0.5rem 1rem;
@@ -383,9 +398,43 @@ label input {
 
 /* --------------------------------------------------- */
 
+/* team count section */
 
 .team-count h2 {
     max-width: 500px;
     font-size: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* --------------------------------------------------- */
+
+/* Designit card section */
+
+
+.design-card {
+    width: calc(100% / 2);
+    background: red;
+   height: calc(100% / 2);
+}
+
+
+/* --------------------------------------------------- */
+
+
+.bring {
+    padding: 4rem 6rem;
+}
+
+.bring .card-big-col {
+    flex-basis: 50%;
+}
+
+.bring h3 {
+    max-width: 500px;
+    font-size: 2.2rem;
+}
+
+.bring .card-small-col button {
+    padding: 0.9rem 2.3rem;
+    font-size: 1rem;
 }
