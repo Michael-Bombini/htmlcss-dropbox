@@ -39,6 +39,14 @@ ul li {
     margin-top: 200px;
 }
 
+.margin-bottom-big {
+    margin-bottom: 150px;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 90px;
+}
+
 .padding-bottom-small {
     padding-bottom: 1rem;
 }
@@ -304,9 +312,12 @@ label input {
 }
 
 .partner-img {
-    width: 100%;
+    width: 95%;
 }
 
+.card-big-col.partner {
+    padding: 0;
+}
 
 .card-small-col.partner  {
     text-align: left;
@@ -332,3 +343,49 @@ label input {
 
 /* --------------------------------------------------- */
 
+
+/* Dropbox Business card section  */
+
+.business-cards {
+    display: flex;
+    gap: 50px;
+    flex-flow: row wrap;
+}
+
+.text-medium.business {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+
+.business-card {
+    flex-basis: calc(100% / 3 - 40px);
+}
+
+
+.business-card img{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+
+.business-card-text h3 {
+    font-size: 1.5rem;
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+} 
+
+.business-card-text p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+
+/* --------------------------------------------------- */
+
+
+.team-count h2 {
+    max-width: 500px;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
