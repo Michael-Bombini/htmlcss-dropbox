@@ -42,6 +42,12 @@ ul li {
     background: #fff;
 }
 
+.black-bg {
+    background: #000;
+}
+
+
+
 .text-medium {
     font-size: 1.8rem;
 }
@@ -457,7 +463,48 @@ label input {
 
 /* --------------------------------------------------- */
 
+/* FAQ */
 
-/* FAQ Section */
+.faq .container ul li i {
+    float: right;
+}
+
+
+/* --------------------------------------------- */
+
+
+
+/* FOOTER  */
+
+
+footer {
+    color: #fff;
+    padding: 2.5rem 0;
+}
+
+.footer-row {
+    display: flex;
+    gap : 35px;
+}
+
+.footer-col {
+    flex-basis: 20%;
+    
+}
+
+.footer-col ul li h2 {
+    padding-bottom: 1rem;
+}
+
+.footer-col ul li {
+    padding-bottom: 0.7rem;
+}
+
+footer hr {
+    width: 10%; 
+    margin-bottom: 3rem;
+    margin-top: 3rem ;
+}
+
 
 /* --------------------------------------------------- */
