@@ -431,14 +431,40 @@ label input {
 /* Designit card section */
 
 
-.design-card {
-    width: calc(100% / 2);
-    background: red;
-   height: calc(100% / 2);
+/* designit utilities color class */
+
+.designit-small {background: #A2D39B;}
+.arizona {background: #61082B;}
+.florida {background: #0093CE;}
+.topps {background: #FF1C1C;}
+.bycicle{background: #D5001F;}
+.hearst{background: #B4D0E7;}
+.lonely{background: #0D2481;}
+.clear{background: #FFD830;}
+.designit-big{background: #F5F5F5;}
+
+
+.design {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 
+
+.design-item {
+    
+    object-fit: cover;
+    flex-basis: 15%;
+
+}
+
+
+
+
+
+
 /* --------------------------------------------------- */
+
 
 /* Bring dropbox business section */
 
@@ -461,16 +487,13 @@ label input {
 }
 
 
+
 /* --------------------------------------------------- */
 
 /* FAQ */
 
-.faq .container ul li i {
-    float: right;
-}
-
-
-/* --------------------------------------------- */
+.faq .container ul li i {float: right;}
+/* --------------------------------------------------- */
 
 
 
