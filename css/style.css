@@ -406,7 +406,7 @@ label input {
 
 
 .business-card-text h3 {
-
+    font-size: 1.6rem;
     max-width: 300px;
     margin-bottom: 1.5rem;
 } 
@@ -446,17 +446,24 @@ label input {
 
 .design {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 
 
 
 .design-item {
     
-    object-fit: cover;
-    flex-basis: 15%;
-
+    flex-basis: calc(100% / 5);
 }
+
+
+.design-item:not(.big) img {
+    filter: invert(1);
+    width: 100%;
+
+ 
+}
+
 
 
 
