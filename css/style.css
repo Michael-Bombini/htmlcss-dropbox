@@ -146,6 +146,12 @@ nav .nav-left ul li , nav .nav-right ul li {
     font-size: 3rem;
 }
 
+
+
+.jumbo .big-container .jumbo-content button {
+    padding: 0.9rem 1rem;
+}
+
 /* ----------------------------------------------- */
 
 
@@ -302,8 +308,27 @@ label input {
 }
 
 
-.card-small-col.partner {
+.card-small-col.partner  {
     text-align: left;
-   padding : 2.5rem 0;
-    
+    padding : 0;
 }
+
+
+.card-small-col.partner h3 {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+
+
+.card-small-col.partner button {
+    padding: 0.7rem 1.5rem;
+    color: #000;
+    background: #fff;
+    border: 1px solid black ;
+    margin-top: 2rem;
+} 
+
+/* --------------------------------------------------- */
+
