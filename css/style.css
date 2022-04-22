@@ -473,7 +473,7 @@ label input {
 
 .design-item {
     flex-basis: 50%;
-    height: calc(100vw / 6);
+    height: calc(100vh / 3);
     display: flex;
     justify-content: center;
     align-items: center;

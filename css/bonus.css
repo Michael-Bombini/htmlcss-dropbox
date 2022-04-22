@@ -1,0 +1,21 @@
+nav ul li {
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #0061FF;
+    font-weight: bold;
+}
+
+
+button.blue-bg:hover {
+    background: #1b72ff;;
+}
+
+button.white-bg:hover {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+
