@@ -437,7 +437,7 @@ label input {
 
 /* designit utilities color class */
 
-.designit-small {background: #A2D39B;}
+.designit-small {background: #A2D39B; border: 15px solid #D1E9CD;}
 .arizona {background: #61082B;}
 .florida {background: #0093CE;}
 .topps {background: #FF1C1C;}
