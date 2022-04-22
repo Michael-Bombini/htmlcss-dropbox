@@ -19,3 +19,13 @@ button.white-bg:hover {
 }
 
 
+.hide {
+    display: none;
+}
+
+
+section.faq .container ul li.text-small:hover + .hide {
+  
+
+    display: block;
+}
