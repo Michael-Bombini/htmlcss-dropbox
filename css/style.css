@@ -451,56 +451,36 @@ label input {
 
 
 
-.design-item:not(.big) img {
+ .design-item:not(.big) img {
     filter: invert(1);
 
 } 
 
 .design {
     display: flex;
-    height: 600px;
 }
 
-.design .design-left {
-  
+
+
+
+.design .design-container {
     width: calc(100% / 3);
-    height: 200px;
     display: flex;
     flex-flow: row wrap;
 }
 
-
-.design .design-middle {
-
-    width: calc(100% / 3);
-    height: 200px;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.design .design-right {
-  
-    width: calc(100% / 3);
-    height: 200px;
-    display: flex;
-    flex-flow: row wrap;
-}
 
 
 .design-item {
     flex-basis: 50%;
-    height: 300px;
+    height: calc(100vw / 6);
     display: flex;
     justify-content: center;
     align-items: center;
   
 }
 
-.design-item img {
-    width: 50%;
-  
-  
-}
+.design-item img {width: 50%;}
 
 
 
@@ -515,7 +495,11 @@ label input {
     align-self: flex-start;
     padding-top: 2.5rem;
     text-align: left;
-}
+} 
+
+
+
+
 
 
 /* --------------------------------------------------- */
