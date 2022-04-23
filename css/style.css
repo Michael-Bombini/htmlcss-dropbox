@@ -300,8 +300,12 @@ label input {
 }
 
 .card-points ul li {
+    
+    display: flex;
+    gap: 10px;
     padding-bottom: 1.4rem;
 }
+
 
 .card-points h4 {
     margin-bottom: 1.5rem;

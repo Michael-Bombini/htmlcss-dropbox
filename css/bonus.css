@@ -25,10 +25,10 @@ button.white-bg:hover {
 
 
 section.faq .container ul li.text-small:hover + .hide {
-  
-
     display: block;
 }
+
+
 
 
 
@@ -62,3 +62,5 @@ section.faq .container ul li.text-small:hover + .hide {
 .duration-text {
     padding: 0 0.2rem;
 }
+
+
